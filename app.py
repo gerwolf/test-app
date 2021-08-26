@@ -58,6 +58,8 @@ all_df = pd.concat(col_dfs)
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 blackbold={'color':'black', 'font-weight': 'bold'}
 
 app.layout = html.Div([
