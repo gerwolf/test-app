@@ -9,7 +9,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
-mapbox_access_token = 'pk.eyJ1IjoidGFrZWl0ZWFzeWR1ZGUiLCJhIjoiY2p5bmlrcDl4MHJ1ZTNscWs1dWp3cnAzcSJ9.b9lsNYmaCDtMpc0-HUhjow'
+mapbox_access_token = open("mapbox_token.txt").read()
 
 # df = pd.read_csv("finalrecycling.csv")
 
